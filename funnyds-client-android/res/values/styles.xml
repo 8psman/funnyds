@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ControlButton">
+        <item name="android:layout_width">@dimen/control_button_size</item>
+        <item name="android:layout_height">@dimen/control_button_size</item>
+        <item name="android:background">@drawable/image_button_background</item>
+    </style>
+
+    <style name="block">
+        <item name="android:background">@color/block_background</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/header_background</item>
+        <item name="android:textColor">@color/header_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="flat_button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="block_content">
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FunnyDS</string>
+    <string name="starter_retry">Retry</string>
+    <string name="pick_my_own">Pick my own</string>
+    <string name="size">Size</string>
+    <string name="velocity">Velocity</string>
+    <string name="keep_orientation">Keep orientation</string>
+    <string name="exhi_mode">EXHIBITION</string>
+    <string name="pres_mode">PRESENTATION</string>
+    <string name="game_mode">GAME</string>
+    <string name="mode">MODE</string>
+    <string name="header_info">INFO</string>
+    <string name="ip">IP</string>
+    <string name="socket">SOCKET</string>
+    <string name="port">Port</string>
+    <string name="start">START</string>
+    <string name="hit_start">Hit start button and have fun!</string>
+    <string name="name">Name</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="dpi">DPI</string>
+    <string name="server">SERVER</string>
+    <string name="auto">Auto</string>
+    <string name="set">Set</string>
+    <string name="default_host">127.0.0.1</string>
+    <string name="presentation">Presentation</string>
+    <string name="Exhibition">Exhibition</string>
+</resources>

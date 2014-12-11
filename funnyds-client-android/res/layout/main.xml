@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:background="#CACACA">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.eightpsman.funnyds.android.DeviceDrawer
+                android:id="@+id/drawer_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+    <!-- control view -->
+
+    <FrameLayout
+        android:id="@+id/controlView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/fullButton"
+                android:src="@drawable/ic_action_full_screen"
+                style="@style/ControlButton"/>
+
+            <ImageButton
+                android:id="@+id/fillButton"
+                android:src="@drawable/ic_action_return_from_full_screen"
+                style="@style/ControlButton"/>
+
+            <CheckBox
+                android:id="@+id/keep_orientation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/keep_orientation"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/infoView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/app_name"/>
+
+        </LinearLayout>
+
+        <!-- actor select view -->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actor_view_size"
+            android:layout_gravity="bottom">
+
+            <HorizontalScrollView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/actorContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageButton
+                android:id="@+id/moreButton"
+                style="@style/ControlButton"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_action_overflow"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
+

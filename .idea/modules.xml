@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/funnyds-client-android/funnyds-client-android.iml" filepath="$PROJECT_DIR$/funnyds-client-android/funnyds-client-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funnyds-client-java/funnyds-client-java.iml" filepath="$PROJECT_DIR$/funnyds-client-java/funnyds-client-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funnyds-core/funnyds-core.iml" filepath="$PROJECT_DIR$/funnyds-core/funnyds-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funnyds-server/funnyds-server.iml" filepath="$PROJECT_DIR$/funnyds-server/funnyds-server.iml" />
+    </modules>
+  </component>
+</project>

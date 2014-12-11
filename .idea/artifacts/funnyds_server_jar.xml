@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="funnyds-server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/funnyds_server_jar</output-path>
+    <root id="archive" name="funnyds-server.jar">
+      <element id="module-output" name="funnyds-server" />
+      <element id="module-output" name="funnyds-core" />
+    </root>
+  </artifact>
+</component>

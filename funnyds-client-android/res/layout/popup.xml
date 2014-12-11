@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/size"/>
+
+        <ImageButton
+            android:id="@+id/prev_size"
+            style="@style/ControlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_previous_item"/>
+
+        <EditText
+            android:id="@+id/size_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/next_size"
+            style="@style/ControlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_next_item"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/velocity"/>
+
+        <ImageButton
+            android:id="@+id/prev_veloc"
+            style="@style/ControlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_previous_item"/>
+
+        <EditText
+            android:id="@+id/veloc_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/next_veloc"
+            style="@style/ControlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_next_item"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/pick_image"
+        style="@style/ControlButton"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_action_settings"
+        android:drawableLeft="@drawable/ic_action_picture"
+        android:text="@string/pick_my_own"/>
+
+</LinearLayout>

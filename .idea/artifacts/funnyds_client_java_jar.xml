@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="funnyds-client-java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/funnyds_client_java_jar</output-path>
+    <root id="archive" name="funnyds-client-java.jar">
+      <element id="module-output" name="funnyds-client-java" />
+      <element id="module-output" name="funnyds-core" />
+    </root>
+  </artifact>
+</component>
