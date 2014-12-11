@@ -4,7 +4,6 @@ import com.eightpsman.funnyds.core.Actor;
 import com.eightpsman.funnyds.core.ClientManager;
 import com.eightpsman.funnyds.core.Device;
 import com.eightpsman.funnyds.core.ImageActorData;
-import com.eightpsman.funnyds.util.SocketMessage;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

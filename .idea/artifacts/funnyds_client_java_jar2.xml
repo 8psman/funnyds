@@ -2,7 +2,7 @@
   <artifact type="jar" name="funnyds-client-java:jar2">
     <output-path>$PROJECT_DIR$/out/artifacts/funnyds_client_java_jar2</output-path>
     <root id="archive" name="funnyds-client-java.jar">
-      <element id="module-output" name="funnyds-client-java" />
+      <element id="module-output" name="funnyds-java" />
       <element id="module-output" name="funnyds-core" />
     </root>
   </artifact>

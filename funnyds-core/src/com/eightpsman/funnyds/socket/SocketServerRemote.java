@@ -5,7 +5,6 @@ import com.eightpsman.funnyds.core.Device;
 import com.eightpsman.funnyds.core.ImageActorData;
 import com.eightpsman.funnyds.rmi.ClientCallback;
 import com.eightpsman.funnyds.rmi.ServerRemote;
-import com.eightpsman.funnyds.util.SocketMessage;
 
 import java.rmi.RemoteException;
 import java.util.List;

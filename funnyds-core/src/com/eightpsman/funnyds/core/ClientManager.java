@@ -2,7 +2,6 @@ package com.eightpsman.funnyds.core;
 
 import com.eightpsman.funnyds.rmi.ServerRemote;
 import com.eightpsman.funnyds.util.AppUtils;
-import com.eightpsman.funnyds.util.JavaUtil;
 
 import java.rmi.RemoteException;
 import java.util.List;
